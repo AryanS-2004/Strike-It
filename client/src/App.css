@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.App {
+    min-height: 100vh;
+    background-image: url('assets/blue-pattern.jpg');
+    background-size: cover;
+    background-position: center;
+}
