@@ -2,7 +2,13 @@
 
 Strike It is a powerful and intuitive todo app designed to help you stay organized and manage your tasks efficiently. With its user-friendly interface and robust features, Strike It makes it easy to create, track, and complete your todos, ensuring you stay productive and focused.
 
+
+https://github.com/AryanS-2004/Giggles/assets/102866440/9bde6963-6af2-419a-8f9e-eb3102c553dd
+
+
+
 Any suggestions may be sent to the following email address: aryan.coding01@gmail.com
+
 
 # Setup Instructions
 
