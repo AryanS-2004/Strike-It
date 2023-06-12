@@ -2,11 +2,7 @@
 
 Strike It is a powerful and intuitive todo app designed to help you stay organized and manage your tasks efficiently. With its user-friendly interface and robust features, Strike It makes it easy to create, track, and complete your todos, ensuring you stay productive and focused.
 
-
-
-Screenshots of Chat App: https://photos.app.goo.gl/FCiwV2YeGu8Ef4yy7  
 Any suggestions may be sent to the following email address: aryan.coding01@gmail.com
-
 
 # Setup Instructions
 
@@ -28,20 +24,27 @@ Make sure you have the following software installed on your system:
 
 # Frontend Setup
 1. Change the current working directory to the cloned repository:  
-   ***cd Giggles***
+   ***cd Strike-It***
+
 
 2. Navigate to the client directory:  
    ***cd client***
 
+
 3. Install the required dependencies by running the following command:  
    ***npm install***
 
+
 # Backend Setup
 1. Change the current working directory to the cloned repository:  
-   ***cd Giggles***
+   ***cd Strike-It***  
 
 
-2. Install the required dependencies by running the following command:  
+2. Navigate to the server directory:  
+   ***cd server***
+
+
+3. Install the required dependencies by running the following command:  
    ***npm install***
 
 
@@ -56,4 +59,4 @@ Make sure you have the following software installed on your system:
 
    This command will start the backend server and make it accessible for frontend requests.
 
-Congratulations! You have successfully set up the your own Chat App locally. You can now access the application by opening your browser and navigating to the provided URL.
+Congratulations! You have successfully set up the your own Task Manager locally. You can now access the application by opening your browser and navigating to the provided URL.
