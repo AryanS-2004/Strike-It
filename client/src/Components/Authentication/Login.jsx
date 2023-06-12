@@ -113,7 +113,7 @@ function Login() {
                     isLoading = {loading}
                     onClick={() => {
                         setEmail('guest@example.com');
-                        setPassword('123456');
+                        setPassword('123');
                     }}
                 >Get guest Credentials</Button>
             </VStack>
