@@ -110,7 +110,7 @@ function SignUp() {
                     "Content-type": "application/json"
                 }
             }
-            const response = await axios.post("http://localhost:3000/api/user/",
+            const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/user/`,
                 {name, email, password, pic},
                 config
             )

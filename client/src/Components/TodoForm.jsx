@@ -43,7 +43,7 @@ const Todo = () => {
                     'Content-type': 'application/json'
                 }
             }
-            const newtask = await axios.post('http://localhost:3000/api/task/', {
+            const newtask = await axios.post(`${import.meta.env.VITE_API_URL}/api/task/`, {
                 task: todo
             }, config);
             setTodo("");
@@ -69,7 +69,7 @@ const Todo = () => {
                     'Content-type': 'application/json'
                 }
             }
-            const fetchedTask = await axios.get('http://localhost:3000/api/task/allTask', config);
+            const fetchedTask = await axios.get(`${import.meta.env.VITE_API_URL}/api/task/allTask`, config);
             console.log(fetchedTask.data);
             // console.log(user);
             setTasks([]);
@@ -120,7 +120,7 @@ const Todo = () => {
                     authorization: `Bearer ${user.token}`
                 }
             }
-            const editedTask = await axios.put('http://localhost:3000/api/task/edit', {
+            const editedTask = await axios.put(`${import.meta.env.VITE_API_URL}/api/task/edit`, {
                 changedTask: todo,
                 taskId: selectedTask._id,
                 status: selectedTask.status
@@ -162,7 +162,7 @@ const Todo = () => {
                     authorization: `Bearer ${user.token}`
                 }
             }
-            const deletedTask = await axios.put('http://localhost:3000/api/task/delete', {
+            const deletedTask = await axios.put(`${import.meta.env.VITE_API_URL}/api/task/delete`, {
                 taskId
             }, config);
             toast({
@@ -197,7 +197,7 @@ const Todo = () => {
                     "Content-type": "application/json"
                 }
             }
-            const changeStatus = await axios.put("http://localhost:3000/api/task/edit", {
+            const changeStatus = await axios.put(`${import.meta.env.VITE_API_URL}/api/task/edit`, {
                 changedTask: getTask.task,
                 taskId: getTask._id,
                 status: val?"completed":"incomplete"
@@ -251,7 +251,7 @@ const Todo = () => {
                         style={{fontFamily: "Josefin Sans",}}
                         className="px-4 w-1/3 rounded-r-lg bg-blue-500 text-white font-bold p-4 uppercase border-blue-500 border-t border-b border-r"
                     >
-                        Add Todo
+                        Add Task
                     </button>
                 </div>
                 <Tabs className="bg-white rounded-md" fontFamily="Josefin Sans" >
